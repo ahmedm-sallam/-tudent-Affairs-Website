@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="css/homePage.css">
+<script src="JS/Homepage.js"></script>
+<div class="block">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Home Page</title>
+        <ul style="    line-height: 50px;  background-color: rgba(34, 31, 44, 0.116);">
+            <li>
+                <div style="text-align: center;">
+                    <a href="homePage.html">
+                        <h1 style="left: 0px; color: #ffc107e0; font-size: 60px;">Student Affairs</h1>
+                    </a>
+                    <input type="text" placeholder="search a student">
+                    <select name="way" id="way">
+                        <option value="Search by ID"> By ID </option>
+                        <option value="Search by Name"> By Name </option>
+                        <option value="Search by Department"> By Department </option>
+                    </select>
+                    <a href="view.html"><button>Search</button></a>
+                </div>
+            </li>
+        </ul>
+    </head>
+
+    <body>
+        <div class="block">
+                <div class="btn btn-2" onclick="addstudent()">
+                    <p>Add Student</p>
+                </div>
+                <div class="btn btn-3" onclick="view()">
+                    <p>View Students</p>
+                </div>
+                <div class="btn btn-4"  onclick="assigndeprtament()">
+                    <p>Assign Department</p>
+                </div>
+                <div class="btn btn-5" onclick="signin()">
+                    <p>Logout</p>
+                </div>
+        </div>
+    </div>
+    </body>
+
+
+</html>

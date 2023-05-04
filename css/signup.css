@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../photo/CU.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100vh; 
+}
+
+.block{
+    font-family: "Noto Serif",serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 650px;
+    background-color: rgba(0,0,0,.5);
+    color: #fff; 
+}
+
+.block h1{
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.block form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.block input{
+    width: 100%;
+    margin-bottom: 20px;
+    color:#fff ;
+}
+
+.block input[type="text"],input[type="password"],input[type="date"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: darkgrey;
+    font-size:16px;
+}
+
+.block input[type="radio"]{
+    color: darkgrey;
+    width: 1em;
+    height: 1rem;
+    accent-color:#ffc107e0 ;
+    margin:0 30px 30px 50px;    
+}
+
+.block input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    background:#ffc107e0;
+}
+.block input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color:rgba(94, 91, 110, 0.342);
+    color: #000;
+}

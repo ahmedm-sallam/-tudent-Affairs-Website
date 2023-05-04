@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/edit.css">
+    <link rel="stylesheet" href="css/Navigitan.css">
+</head>
+<header>
+    <h2>STUDENT AFFFAIR</h2>
+
+    <!--<link rel="stylesheet" href="Navigitan.css">-->
+    <nav id="menu-bar">
+        <ul>
+            <li>
+                <input type="text" placeholder="search a student">
+                <select name="way" id="way">
+                    <option value="Search by ID"> By ID </option>
+                    <option value="Search by Name"> By Name </option>
+                    <option value="Search by Department"> By Department </option>
+                </select>
+                <a href="view.html"><button id="botton3">Search</button></a>
+            </li>
+            <li id="b1"><a href="Home page.html">Home</a></li>
+            <li id="b2"><a href="view students.html">view students </a></li>
+            <li id="b3"><a href="add student.html">Add student </a></li>
+            <li id="b4"><a href="Department.html">Assign Department </a></li>
+            <li id="b5"><a href="front page.html">Logout </a></li>
+        </ul>
+    </nav>
+    <title>Edit student Data</title>
+</header>
+
+<body>
+    <div class="block">
+        <h1> Edit Student Informations </h1>
+        <form onchange="form()">
+            <div>
+                <label></label>
+                <input type="text" placeholder="First name" name="fn">
+            </div>
+
+            <div>
+                <label></label>
+                <input type="text" required placeholder="Last name" name="ln">
+            </div>
+
+            <div>
+                <label></label>
+                <input type="number" required name="ID" placeholder="ID">
+            </div>
+
+            <div>
+                <label></label>
+                <input type="number" min="0" max="4" required name="GPA" step="any" placeholder="GPA">
+            </div>
+
+            <div>
+                <label></label>
+                <input type="date" required name="Date of birth" placeholder="Date of birth">
+            </div>
+
+            <div>
+                <label></label>
+                <input type="email" required placeholder="enter student email" name="studnt email">
+            </div>
+
+            <div>
+                <label></label>
+                <input type="number" required placeholder="enter student number" name="studnt number">
+            </div>
+
+            <div class="custom-select">
+                <select>
+                    <option value="0">Student Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select>
+
+                <select>
+                    <option value="0">Student Status</option>
+                    <option value="1">Acrive</option>
+                    <option value="2">Inactive</option>
+                </select>
+            </div> <br>
+
+            <div class="custom-select">
+                <select>
+                    <option value="0"> Student level</option>
+                    <option value="1">Level 1</option>
+                    <option value="2">Level 2</option>
+                    <option value="3">Level 3</option>
+                    <option value="4">Level 4</option>
+                </select>
+            </div>
+
+
+            <div>
+                <label></label>
+                <input type="text" required placeholder="Default Department" required name="n" readonly>
+            </div>
+
+
+            <input type="submit" value="update">
+            <input type="reset" value="Reset">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+<!-- 
+    Ahmed Mohammed Sallam ID: 20210614   S13
+    Sabreen Othman ID: 20210613  S13
+    Nada Shaban Omar ID: 20210611 S13
+    Salma Sherif Ibrahim ID: 20200227 S14
+    Sarah Ahmed Mahmoud ID: 20201085 S14
+    Hadeer Ahmed  ID: 20210616 S13
+-->

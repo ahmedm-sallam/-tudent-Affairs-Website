@@ -1,0 +1,35 @@
+body{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-image: url(/photo/CU.jpg);
+background-repeat: no-repeat ;
+background-size: 150%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 8, 37);
+}
+table{
+border: 0px;
+font-family: "Noto Serif",serif;
+    background-color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.5);;
+    text-align: center !important;
+    width: 100%;
+    font-size: 16px;
+    margin: 100;
+    padding: 100;
+}
+table thead{
+    padding: 10px;
+    background-color: rgba(0,0,0,.5);;
+    color: white;
+}
+table td{
+padding: 15px;
+background-color: rgba(0,0,0,.5);
+color: white;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color: burlywood;}
+  tr:nth-last-col{background-color: white;}

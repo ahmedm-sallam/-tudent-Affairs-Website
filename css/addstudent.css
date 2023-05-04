@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/photo/CU.jpg");
+    background-repeat: no-repeat;
+    background-size: 160%;
+    height: 100vh;
+}
+
+.block {
+    font-family: "Noto Serif", serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 830px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+.block h1 {
+    font-family: arial;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid white;
+    padding: 100px 0 20px;
+    box-sizing: border-box;
+}
+
+.block form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.block input {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.block input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: darkgrey;
+    font-size: 16px;
+}
+
+
+.block select {
+
+    font-family: Arial;
+    width: 45%;
+    padding: 8px;
+    margin: 0 10px;
+    border-color: #fff;
+    background: transparent;
+    color: darkgrey;
+    font-size: 16px;
+
+}
+
+.block button {
+    margin: 25px 10px;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    background: #ffc107e0;
+}
+
+.block button:hover {
+    cursor: pointer;
+    background-color: rgba(94, 91, 110, 0.342);
+    color: #000;
+}
